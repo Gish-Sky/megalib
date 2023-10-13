@@ -1,2 +1,5 @@
-add_executable(geomega)
-target_include_directories()
+file(GLOB SRC src/*.cxx)
+add_executable(geomega ${SRC})
+# add_executable(global ${SRC})
+target_include_directories(geomega PRIVATE inc)
+#target_include_directories(global PRIVATE inc)
