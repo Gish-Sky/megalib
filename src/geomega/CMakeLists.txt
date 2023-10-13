@@ -1,0 +1,2 @@
+add_executable(geomega)
+target_include_directories()
