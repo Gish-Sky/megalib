@@ -1,5 +1,9 @@
 # MEGAlib gitignore file
 
+# cmake file
+
+build 
+
 # bin directory
 bin/cosima
 bin/eview
