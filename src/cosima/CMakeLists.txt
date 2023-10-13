@@ -1,0 +1,6 @@
+file(GLOB SRC src/*.cxx)
+list(FILTER SRC EXCLUDE REGEX ".*MDX3DViewer.cxx")
+add_executable(cosima ${SRC})
+# add_executable(global ${SRC})
+target_include_directories(cosima PRIVATE inc)
+#target_include_directories(global PRIVATE inc)
