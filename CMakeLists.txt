@@ -11,6 +11,7 @@ project(Megalib
 
 
         include_directories(${ROOT_INCLUDE_DIRS})
+        link_libraries(${ROOT_LIBRARIES})
 
 add_subdirectory(src)
 set(CMAKE_DISABLE_IN_SOURCE_BUILD ON)

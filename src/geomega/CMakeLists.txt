@@ -1,4 +1,5 @@
 file(GLOB SRC src/*.cxx)
+list(FILTER SRC EXCLUDE REGEX ".*MDX3DViewer.cxx")
 add_executable(geomega ${SRC})
 # add_executable(global ${SRC})
 target_include_directories(geomega PRIVATE inc)

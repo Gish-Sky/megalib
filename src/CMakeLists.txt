@@ -1,3 +1,9 @@
+
+file(GLOB GLOBAL global/gui/src/*.cxx)
+file(GLOB WEEWOO global/misc/src/*.cxx)
+include_directories(global/gui/inc)
+include_directories(global/misc/inc)
+
 add_subdirectory(addon)
 add_subdirectory(cosima)
 add_subdirectory(eview)
@@ -9,8 +15,3 @@ add_subdirectory(response)
 add_subdirectory(revan)
 add_subdirectory(sivan)
 add_subdirectory(spectralyze)
-file(GLOB GLOBAL global/gui/src/*.cxx)
-include_directories(global/gui/inc)
-#file(GLOB WEEWOO global/misc/inc/*.cxx)
-#include_directories(global/misc/inc)
-#add_library(global ${WEEWOO})
