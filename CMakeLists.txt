@@ -19,3 +19,4 @@ set(CMAKE_DISABLE_SOURCE_CHANGES  ON)
 
 include(CMakePrintHelpers)
 cmake_print_variables(ROOT_INCLUDE_DIRS)
+cmake_print_variables(ROOT_LIBRARIES)
