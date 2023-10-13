@@ -1,0 +1,6 @@
+file(GLOB SRC src/*.cxx)
+list(FILTER SRC EXCLUDE REGEX ".*MDX3DViewer.cxx")
+add_executable(eview ${SRC})
+# add_executable(global ${SRC})
+target_include_directories(eview PRIVATE inc)
+#target_include_directories(global PRIVATE inc)
