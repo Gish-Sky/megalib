@@ -1,9 +1,9 @@
 
 file(GLOB GLOBAL global/gui/src/*.cxx)
 file(GLOB WEEWOO global/misc/src/*.cxx)
-include_directories(global/gui/inc)
-include_directories(global/misc/inc)
 
+
+add_subdirectory(global)
 add_subdirectory(geomega)
 add_subdirectory(addon)
 add_subdirectory(cosima)
