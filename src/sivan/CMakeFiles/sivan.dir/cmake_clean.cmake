@@ -1,0 +1,41 @@
+file(REMOVE_RECURSE
+  "CMakeFiles/sivan.dir/src/MFileEventsSim.cxx.o"
+  "CMakeFiles/sivan.dir/src/MFileEventsSim.cxx.o.d"
+  "CMakeFiles/sivan.dir/src/MGUISivanEventSelection.cxx.o"
+  "CMakeFiles/sivan.dir/src/MGUISivanEventSelection.cxx.o.d"
+  "CMakeFiles/sivan.dir/src/MGUISivanMain.cxx.o"
+  "CMakeFiles/sivan.dir/src/MGUISivanMain.cxx.o.d"
+  "CMakeFiles/sivan.dir/src/MGUISivanTracking.cxx.o"
+  "CMakeFiles/sivan.dir/src/MGUISivanTracking.cxx.o.d"
+  "CMakeFiles/sivan.dir/src/MInterfaceSivan.cxx.o"
+  "CMakeFiles/sivan.dir/src/MInterfaceSivan.cxx.o.d"
+  "CMakeFiles/sivan.dir/src/MSettingsSivan.cxx.o"
+  "CMakeFiles/sivan.dir/src/MSettingsSivan.cxx.o.d"
+  "CMakeFiles/sivan.dir/src/MSimBinaryOptions.cxx.o"
+  "CMakeFiles/sivan.dir/src/MSimBinaryOptions.cxx.o.d"
+  "CMakeFiles/sivan.dir/src/MSimCluster.cxx.o"
+  "CMakeFiles/sivan.dir/src/MSimCluster.cxx.o.d"
+  "CMakeFiles/sivan.dir/src/MSimDR.cxx.o"
+  "CMakeFiles/sivan.dir/src/MSimDR.cxx.o.d"
+  "CMakeFiles/sivan.dir/src/MSimEvent.cxx.o"
+  "CMakeFiles/sivan.dir/src/MSimEvent.cxx.o.d"
+  "CMakeFiles/sivan.dir/src/MSimEventLoader.cxx.o"
+  "CMakeFiles/sivan.dir/src/MSimEventLoader.cxx.o.d"
+  "CMakeFiles/sivan.dir/src/MSimGR.cxx.o"
+  "CMakeFiles/sivan.dir/src/MSimGR.cxx.o.d"
+  "CMakeFiles/sivan.dir/src/MSimHT.cxx.o"
+  "CMakeFiles/sivan.dir/src/MSimHT.cxx.o.d"
+  "CMakeFiles/sivan.dir/src/MSimIA.cxx.o"
+  "CMakeFiles/sivan.dir/src/MSimIA.cxx.o.d"
+  "CMakeFiles/sivan.dir/src/MSimPM.cxx.o"
+  "CMakeFiles/sivan.dir/src/MSimPM.cxx.o.d"
+  "CMakeFiles/sivan.dir/src/MSivanMain.cxx.o"
+  "CMakeFiles/sivan.dir/src/MSivanMain.cxx.o.d"
+  "sivan"
+  "sivan.pdb"
+)
+
+# Per-language clean rules from dependency scanning.
+foreach(lang CXX)
+  include(CMakeFiles/sivan.dir/cmake_clean_${lang}.cmake OPTIONAL)
+endforeach()
