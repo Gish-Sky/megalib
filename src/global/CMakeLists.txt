@@ -1,6 +1,6 @@
 file(GLOB SRC src/*.cxx)
 list(FILTER SRC EXCLUDE REGEX ".*MDX3DViewer.cxx")
-add_executable(global ${SRC})
+#add_executable(global ${SRC})
 add_subdirectory(misc)
 # add_executable(global ${SRC})
 target_include_directories(global PRIVATE inc)

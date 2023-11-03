@@ -1,6 +1,6 @@
-
-file(GLOB GLOBAL global/gui/src/*.cxx)
-file(GLOB WEEWOO global/misc/src/*.cxx)
+cmake_minimum_required(VERSION 3.27)
+#file(GLOB GLOBAL global/gui/src/*.cxx)
+#file(GLOB WEEWOO global/misc/src/*.cxx)
 
 
 add_subdirectory(global)
